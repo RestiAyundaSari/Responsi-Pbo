@@ -57,6 +57,7 @@ public class ViewEdit extends JFrame  {
         jlidanggota.setBounds(80, 140, 90, 20);
         add(jtidanggota);
         jtidanggota.setBounds(170, 140, 120, 20);
+        jtidanggota.setEnabled(false);
         
         //NAMA ANGGOTA =================================================================
         add(jlnama);
@@ -75,6 +76,7 @@ public class ViewEdit extends JFrame  {
         jljudul.setBounds(80, 320, 90, 20);
         add(jtjudul);
         jtjudul.setBounds(170, 320, 120, 20);
+        jtjudul.setEnabled(false);
         
         // BUTTON ==============================================================
         add(jbtambah);
