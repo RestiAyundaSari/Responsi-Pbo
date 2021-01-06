@@ -33,7 +33,7 @@ public class ControllerTampil{
         this.viewtampil = vtp;
         this.viewedit= ve;
         
-  //      viewedit.setVisible(false);
+        viewedit.setVisible(false);
         
         if (modeltampil.getBanyakData()!= 0) {
             String dataMahasiswa[][] = modeltampil.readPeminjam();
@@ -137,7 +137,8 @@ public class ControllerTampil{
                 String idbuku = viewtampil.tabel.getValueAt(baris, 2).toString();
                 String judul = viewtampil.tabel.getValueAt(baris, 3).toString();
                 
-
+                viewtampil.jbhapus.setEnabled(true);
+                viewtampil.jbedit.setEnabled(true);
                 viewedit.jtidanggota.setText(idanggota);
                 viewedit.jtnama.setText(nama);
                 viewedit.jtidbuku.setText(idbuku);

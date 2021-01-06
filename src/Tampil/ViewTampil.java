@@ -65,9 +65,11 @@ public class ViewTampil extends JFrame{
         // BUTTON ==============================================================
         add(jbedit);
         jbedit.setBounds(60, 100, 90, 20);
+        jbedit.setEnabled(false);
         
         add(jbhapus);
         jbhapus.setBounds(210, 100, 90, 20);
+        jbhapus.setEnabled(false);
         
         add(jbhome);
         jbhome.setBounds(440, 160, 100, 30);
